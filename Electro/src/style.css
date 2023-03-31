@@ -6,5 +6,45 @@ nav .navleft {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 10px;
+}
+
+nav .navleft p {
+  padding-left: 5px;
+  font-size: .9rem;
+}
+
+nav .navleft svg {
+  color: #fed700;
+  margin-top: 5px;
+}
+
+nav span {
+  color: #eaebec;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+nav .navright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+nav .navright a {
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+
+nav .register span {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
