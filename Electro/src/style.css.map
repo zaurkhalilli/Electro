@@ -1,10 +1,11 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGAA,AAAA,GAAG,CAAA;EACC,aAAa,EAAE,iBAAiB;CAKnC;;AAND,AAEG,GAFA,CAEA,QAAQ,CAAA;EACP,OAAO,EAAE,IAAI;CACb",
     "sources": [
         "style.scss",
         "scss/common/_common.scss",
-        "scss/pages/home/_main.scss"
+        "scss/pages/home/_main.scss",
+        "scss/_navbar.scss"
     ],
     "names": [],
     "file": "style.css"
