@@ -1,6 +1,7 @@
 #header-bottom{
+ 
     .dropdown{
-        margin-top: 150px;
+       
 
         button{
             width: 250px;
@@ -19,7 +20,22 @@
         width: 82%;
         .li_bold{
             font-weight: 650;
-
+            margin-left: 8px;
+            width: 90%;
+            span{
+                font-size: .6rem;
+                color: white;
+                padding: 2px;
+                width: 40px;
+                float: right;
+                margin-right: 45px;
+            
+                background-color: #4cd964;
+            }
+        }
+        .li_thin{
+            margin-left: 8px;
+            width: 90%;
         }
         a{
             text-decoration: none;
@@ -27,8 +43,89 @@
             font-size: 1.1rem;
         }
         li{
-            border-bottom: 1px solid gray;
+            border-bottom: 1px solid#dddddd;
         }
       }
       
 }
+
+.dropdown-hover {
+    position: relative;
+    display: inline-block;
+    button{
+        background: none;
+        border: none;
+    }
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        
+    }
+  }
+  
+  
+  .dropdown-hover:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  #swiper{
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            position: absolute;
+        }
+        .words{
+            h2{
+                position: relative;
+            }
+            h5{
+                position: relative;
+            }
+            span{
+                position: relative;
+            }
+            p{
+                position: relative;
+            }
+            button{
+                position: relative;
+            }
+        }
+        .img1{
+            img{
+                position: relative;
+            }
+          
+        }
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+  
+      .swiper {
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
