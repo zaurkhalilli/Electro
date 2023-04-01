@@ -219,8 +219,88 @@
 #bottom-swiper img {
   margin-top: 30px;
   gap: 20px;
-  width: 90%;
-  height: 90%;
+  display: block;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#bottom-swiper .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.212);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#bottom-swiper .image1-1 {
+  position: relative;
+  width: 100%;
+}
+
+#bottom-swiper .image1-1 :hover .overlay {
+  height: 100%;
+}
+
+#featured {
+  padding-top: 50px;
+}
+
+#featured .col-4 {
+  border: 2px solid #fed700;
+  border-radius: 25px;
+}
+
+#featured .col-4 img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#featured .col-4 .special h5 {
+  max-width: 150px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#featured .col-4 .percent p {
+  border-radius: 50%;
+  background-color: #fed700;
+  float: right;
+  padding: 10px;
+  margin-top: -50px;
+}
+
+#featured .col-4 .percent p span {
+  font-weight: 660;
+  font-size: 1.4rem;
+}
+
+#featured .col-4 .bottom-special p {
+  color: #0062bd;
+  font-weight: 620;
+  text-align: center;
+}
+
+#featured .col-4 .bottom-special h5 {
+  color: #dc3545;
+}
+
+#featured .col-4 .bottom-special h5 span {
+  color: #848484;
+  text-decoration: line-through;
+}
+
+#featured .col-8 img {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
