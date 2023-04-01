@@ -7,6 +7,7 @@
   width: 250px;
   padding: 10px;
   background-color: #fed700;
+  border: none;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   font-weight: 700;
@@ -49,6 +50,12 @@
   border-bottom: 1px solid #dddddd;
 }
 
+#header-bottom .free p {
+  color: #333e48;
+  font-weight: 670;
+  float: right;
+}
+
 .dropdown-hover {
   position: relative;
   display: inline-block;
@@ -73,6 +80,7 @@
 
 .dropdown-hover:hover .dropdown-content {
   display: block;
+  z-index: 1;
 }
 
 #swiper .swiper {
@@ -97,30 +105,97 @@
 
 #swiper .swiper-slide img {
   position: absolute;
-}
-
-#swiper .swiper-slide .words h2 {
-  position: relative;
-}
-
-#swiper .swiper-slide .words h5 {
-  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 #swiper .swiper-slide .words span {
   position: relative;
+  margin-right: 230px;
+  font-weight: 670;
+  font-size: 1.7rem;
+  color: #333e48;
 }
 
 #swiper .swiper-slide .words p {
+  color: #333e48;
   position: relative;
+  margin-right: 80px;
+  font-weight: 670;
+  font-size: 2.4rem;
+  margin-top: -25px;
+}
+
+#swiper .swiper-slide .words h2 {
+  position: relative;
+  font-size: 3rem;
+  margin-top: 50px;
+  color: #333e48;
+  font-weight: 450;
+  text-align: left;
+  margin-left: 250px;
+}
+
+#swiper .swiper-slide .words h5 {
+  position: relative;
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 250px;
+  font-weight: 660;
 }
 
 #swiper .swiper-slide .words button {
   position: relative;
+  background-color: #fed700;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  color: #333e48;
+  margin-right: 40px;
+}
+
+#swiper .swiper-slide .words2 h5 {
+  margin-top: 70px;
+  margin-left: 260px;
+  color: #34bcec;
+  position: relative;
+  text-align: left;
+}
+
+#swiper .swiper-slide .words2 h2 {
+  position: relative;
+  font-weight: 400;
+  max-width: 400px;
+  margin-left: 260px;
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+#swiper .swiper-slide .words2 span {
+  position: relative;
+  font-weight: 700;
+}
+
+#swiper .swiper-slide .words2 button {
+  position: relative;
+  background-color: #fed700;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  border-radius: 10px;
+  color: #333e48;
+  margin-right: 25px;
 }
 
 #swiper .swiper-slide .img1 img {
   position: relative;
+  height: 450px;
+}
+
+#swiper .swiper-slide .img2 img {
+  position: relative;
+  height: 450px;
 }
 
 #swiper .swiper-slide img {
@@ -134,6 +209,20 @@
 #swiper .swiper {
   margin-left: auto;
   margin-right: auto;
+}
+
+#swiper .img3 img {
+  height: 450px;
+  position: relative;
+}
+
+#bottom-swiper img {
+  margin-top: 30px;
+  gap: 20px;
+  width: 90%;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 nav {
