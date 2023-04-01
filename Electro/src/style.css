@@ -3,15 +3,48 @@
           box-sizing: border-box;
 }
 
+#header-bottom .dropdown {
+  margin-top: 150px;
+}
+
+#header-bottom .dropdown button {
+  width: 250px;
+  padding: 10px;
+  background-color: #fed700;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-weight: 700;
+  text-align: left;
+}
+
+#header-bottom .dropdown-menu {
+  display: none;
+  width: 82%;
+}
+
+#header-bottom .dropdown-menu .li_bold {
+  font-weight: 650;
+}
+
+#header-bottom .dropdown-menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+#header-bottom .dropdown-menu li {
+  border-bottom: 1px solid gray;
+}
+
 nav {
-  border-bottom: 1px solid #eaebec;
+  margin-top: 20px;
 }
 
 nav .navleft {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 10px;
+  height: 20px;
 }
 
 nav .navleft p {
@@ -40,7 +73,6 @@ nav .navright {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 10px;
 }
 
 nav .navright a {
@@ -53,11 +85,7 @@ nav .register span {
   color: black;
 }
 
-#header {
-  margin-top: 20px;
-}
-
-#header .headerleft a {
+nav .headerleft a {
   text-decoration: none;
   color: #333e48;
   display: -webkit-box;
@@ -65,18 +93,18 @@ nav .register span {
   display: flex;
 }
 
-#header .headerleft h2 {
+nav .headerleft h2 {
   font-size: 2.5rem;
   font-weight: 790;
 }
 
-#header .headerleft span {
+nav .headerleft span {
   color: #fed700;
   font-weight: 790;
   font-size: 2.2rem;
 }
 
-#header .headermiddle input {
+nav .headermiddle input {
   width: 40%;
   border: 1px solid #fed700;
   border-radius: 25px;
@@ -85,7 +113,7 @@ nav .register span {
   position: absolute;
 }
 
-#header .headermiddle button {
+nav .headermiddle button {
   border: none;
   position: relative;
   float: right;
@@ -97,47 +125,49 @@ nav .register span {
   border-bottom-right-radius: 25px;
 }
 
-#header .headermiddle button svg {
+nav .headermiddle button svg {
   padding: 10px;
   color: #333e48;
 }
 
-#header .headerright {
+nav .headerright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   float: right;
 }
 
-#header .headerright p {
+nav .headerright p {
   padding-left: 5px;
   font-weight: 750;
   font-size: 1rem;
 }
 
-#header .headerright .compare {
+nav .headerright .compare {
   padding-left: 30px;
   position: relative;
 }
 
-#header .headerright .compare span {
+nav .headerright .compare span {
   position: absolute;
   background-color: #fed700;
   padding-right: 4px;
   padding-left: 4px;
+  color: #333e48;
   font-weight: 620;
   border-radius: 80%;
   bottom: 0;
   right: 0;
 }
 
-#header .headerright .heart {
+nav .headerright .heart {
   padding-left: 50px;
   position: relative;
 }
 
-#header .headerright .heart span {
+nav .headerright .heart span {
   position: absolute;
+  color: #333e48;
   background-color: #fed700;
   padding-right: 4px;
   padding-left: 4px;
@@ -147,15 +177,16 @@ nav .register span {
   font-weight: 620;
 }
 
-#header .headerright .shop {
+nav .headerright .shop {
   padding-left: 50px;
   position: relative;
 }
 
-#header .headerright .shop span {
+nav .headerright .shop span {
   position: absolute;
   background-color: #fed700;
   padding-right: 4px;
+  color: #333e48;
   padding-left: 4px;
   border-radius: 50%;
   bottom: 0;
