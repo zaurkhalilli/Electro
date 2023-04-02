@@ -300,46 +300,140 @@
   text-decoration: line-through;
 }
 
-#featured .col-4 .progress span {
-  width: 13%;
-  background-color: #fed700;
+#featured .col-8 {
+  margin-top: -10px;
 }
 
-#featured .col-8 img {
+#featured .col-8 .col-3 {
+  padding: 15px;
+}
+
+#featured .col-8 .col-3 img {
+  border-right: 1px solid #dddddd;
+  display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-nav {
+#featured .col-8 .col-3 .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.212);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  color: #848484;
+}
+
+#featured .col-8 .col-3 .overlay svg {
+  color: #848484;
+}
+
+#featured .col-8 .col-3 .image2-1 {
+  position: relative;
+  width: 100%;
+}
+
+#featured .col-8 .col-3 .image2-1 a {
+  text-decoration: none;
+}
+
+#featured .col-8 .col-3 .image2-1 span {
+  color: #8fa7c1;
+  font-size: 0.9rem;
+}
+
+#featured .col-8 .col-3 .image2-1 p {
+  color: #0062bd;
+  font-weight: 650;
+}
+
+#featured .col-8 .col-3 .image2-1 :hover .overlay {
+  height: 100%;
+}
+
+#featured .col-8 .col-3 .col-6 {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  margin-top: 245px;
+}
+
+#featured .col-8 .col-3 .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+#featured .col-8 .col-3 .prices h4 {
+  font-size: 1.2rem;
+  color: #dc3545;
+}
+
+#featured .col-8 .col-3 .prices h5 {
+  font-size: 1rem;
+}
+
+#featured .col-8 .col-3 .prices svg {
+  background-color: #e6e6e6;
+  color: white;
+  border-radius: 50%;
+}
+
+#featured .col-8 .sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+#featured .col-8 .sections p {
+  font-weight: 650;
+  font-size: 1.2rem;
+}
+
+#featured .col-8 .sections a {
+  text-decoration: none;
+  color: #333e48;
+}
+
+header {
   margin-top: 20px;
 }
 
-nav .navleft {
+header .navleft {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 20px;
 }
 
-nav .navleft p {
+header .navleft p {
   padding-left: 5px;
   font-size: .9rem;
 }
 
-nav .navleft svg {
+header .navleft svg {
   color: #fed700;
   margin-top: 5px;
 }
 
-nav span {
+header span {
   color: #eaebec;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-nav .navright {
+header .navright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,10 +445,14 @@ nav .navright {
           align-items: center;
 }
 
-nav .navright a {
+header .navright a {
   text-decoration: none;
   color: black;
   padding-left: 5px;
+}
+
+nav {
+  margin-top: 20px;
 }
 
 nav .register span {
@@ -472,6 +570,7 @@ nav .headerright .shop span {
 
 .active-nav {
   position: fixed !important;
+  background-color: #ffff;
   left: 0;
   right: 0;
   -webkit-animation-name: fadeInUp;
@@ -484,20 +583,22 @@ nav .headerright .shop span {
 @-webkit-keyframes fadeInUp {
   from {
     opacity: 1;
+    top: 0;
   }
   to {
-    opacity: 1;
-    top: 50px;
+    opacity: 0;
+    top: 0;
   }
 }
 
 @keyframes fadeInUp {
   from {
     opacity: 1;
+    top: 0;
   }
   to {
-    opacity: 1;
-    top: 50px;
+    opacity: 0;
+    top: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

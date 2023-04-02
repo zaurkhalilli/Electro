@@ -23,12 +23,15 @@ dropdown.addEventListener('mouseout', () => {
 
 
 
-const Navbar= document.querySelector("#navbar");
-window.addEventListener("scroll",()=>{
-  if(window.scrollY>300){
-    Navbar.classList.add("active-nav")
-  }
-})
+// const Navbar= document.querySelector("#navbar");
+// window.addEventListener("scroll",()=>{
+//   if(window.scrollY>100){
+//     Navbar.classList.add("active-nav")
+//   }
+//   else{
+//     Navbar.classlist.remove("active-nav")
+//   }
+// })
 
 
 var swiper = new Swiper(".mySwiper", {
