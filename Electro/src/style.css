@@ -3,6 +3,202 @@
           box-sizing: border-box;
 }
 
+header {
+  margin-top: 20px;
+}
+
+header .navleft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 20px;
+}
+
+header .navleft p {
+  padding-left: 5px;
+  font-size: .9rem;
+}
+
+header .navleft svg {
+  color: #fed700;
+  margin-top: 5px;
+}
+
+header span {
+  color: #eaebec;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+header .navright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navright .register span {
+  color: black;
+}
+
+header .navright a {
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav .headerleft a {
+  text-decoration: none;
+  color: #333e48;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .headerleft h2 {
+  font-size: 2.5rem;
+  font-weight: 790;
+}
+
+nav .headerleft span {
+  color: #fed700;
+  font-weight: 790;
+  font-size: 2.2rem;
+}
+
+nav .headermiddle input {
+  width: 40%;
+  border: 1px solid #fed700;
+  border-radius: 25px;
+  padding: 10px;
+  outline: none;
+  position: absolute;
+}
+
+nav .headermiddle button {
+  border: none;
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  width: 56px;
+  cursor: pointer;
+  background-color: #fed700;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+nav .headermiddle button svg {
+  padding: 10px;
+  color: #333e48;
+}
+
+nav .headerright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+}
+
+nav .headerright p {
+  padding-left: 5px;
+  font-weight: 750;
+  font-size: 1rem;
+}
+
+nav .headerright .compare {
+  padding-left: 30px;
+  position: relative;
+}
+
+nav .headerright .compare span {
+  position: absolute;
+  background-color: #fed700;
+  padding-right: 4px;
+  padding-left: 4px;
+  color: #333e48;
+  font-weight: 620;
+  border-radius: 80%;
+  bottom: 0;
+  right: 0;
+}
+
+nav .headerright .heart {
+  padding-left: 50px;
+  position: relative;
+}
+
+nav .headerright .heart span {
+  position: absolute;
+  color: #333e48;
+  background-color: #fed700;
+  padding-right: 4px;
+  padding-left: 4px;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  font-weight: 620;
+}
+
+nav .headerright .shop {
+  padding-left: 50px;
+  position: relative;
+}
+
+nav .headerright .shop span {
+  position: absolute;
+  background-color: #fed700;
+  padding-right: 4px;
+  color: #333e48;
+  padding-left: 4px;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  font-weight: 620;
+}
+
+.active-nav {
+  position: fixed !important;
+  background-color: #ffff;
+  left: 0;
+  right: 0;
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  z-index: 9999;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 1;
+    top: 0;
+  }
+  to {
+    opacity: 0;
+    top: 0;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 1;
+    top: 0;
+  }
+  to {
+    opacity: 0;
+    top: 0;
+  }
+}
+
 #header-bottom .dropdown button {
   width: 250px;
   padding: 10px;
@@ -404,201 +600,5 @@
 #featured .col-8 .sections a {
   text-decoration: none;
   color: #333e48;
-}
-
-header {
-  margin-top: 20px;
-}
-
-header .navleft {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 20px;
-}
-
-header .navleft p {
-  padding-left: 5px;
-  font-size: .9rem;
-}
-
-header .navleft svg {
-  color: #fed700;
-  margin-top: 5px;
-}
-
-header span {
-  color: #eaebec;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-header .navright {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-header .navright .register span {
-  color: black;
-}
-
-header .navright a {
-  text-decoration: none;
-  color: black;
-  padding-left: 5px;
-}
-
-nav {
-  margin-top: 20px;
-}
-
-nav .headerleft a {
-  text-decoration: none;
-  color: #333e48;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-nav .headerleft h2 {
-  font-size: 2.5rem;
-  font-weight: 790;
-}
-
-nav .headerleft span {
-  color: #fed700;
-  font-weight: 790;
-  font-size: 2.2rem;
-}
-
-nav .headermiddle input {
-  width: 40%;
-  border: 1px solid #fed700;
-  border-radius: 25px;
-  padding: 10px;
-  outline: none;
-  position: absolute;
-}
-
-nav .headermiddle button {
-  border: none;
-  position: relative;
-  float: right;
-  margin-right: 15px;
-  width: 56px;
-  cursor: pointer;
-  background-color: #fed700;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
-}
-
-nav .headermiddle button svg {
-  padding: 10px;
-  color: #333e48;
-}
-
-nav .headerright {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  float: right;
-}
-
-nav .headerright p {
-  padding-left: 5px;
-  font-weight: 750;
-  font-size: 1rem;
-}
-
-nav .headerright .compare {
-  padding-left: 30px;
-  position: relative;
-}
-
-nav .headerright .compare span {
-  position: absolute;
-  background-color: #fed700;
-  padding-right: 4px;
-  padding-left: 4px;
-  color: #333e48;
-  font-weight: 620;
-  border-radius: 80%;
-  bottom: 0;
-  right: 0;
-}
-
-nav .headerright .heart {
-  padding-left: 50px;
-  position: relative;
-}
-
-nav .headerright .heart span {
-  position: absolute;
-  color: #333e48;
-  background-color: #fed700;
-  padding-right: 4px;
-  padding-left: 4px;
-  border-radius: 50%;
-  bottom: 0;
-  right: 0;
-  font-weight: 620;
-}
-
-nav .headerright .shop {
-  padding-left: 50px;
-  position: relative;
-}
-
-nav .headerright .shop span {
-  position: absolute;
-  background-color: #fed700;
-  padding-right: 4px;
-  color: #333e48;
-  padding-left: 4px;
-  border-radius: 50%;
-  bottom: 0;
-  right: 0;
-  font-weight: 620;
-}
-
-.active-nav {
-  position: fixed !important;
-  background-color: #ffff;
-  left: 0;
-  right: 0;
-  -webkit-animation-name: fadeInUp;
-          animation-name: fadeInUp;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  z-index: 9999;
-}
-
-@-webkit-keyframes fadeInUp {
-  from {
-    opacity: 1;
-    top: 0;
-  }
-  to {
-    opacity: 0;
-    top: 0;
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 1;
-    top: 0;
-  }
-  to {
-    opacity: 0;
-    top: 0;
-  }
 }
 /*# sourceMappingURL=style.css.map */

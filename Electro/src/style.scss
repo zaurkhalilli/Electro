@@ -1,4 +1,9 @@
 @import "./scss/common/common";
-@import "./scss/pages/home/main";
+@import "./scss/partials/mixin";
+@import "./scss/partials/variable";
 @import "./scss/layout/navbar";
-    
+@import "./scss/pages/home/home";
+@import "./scss/pages/details/details";
+@import "./scss/pages/login/login";
+@import "./scss/pages/register/register"; 
+@import "./scss/layout/footer";   
