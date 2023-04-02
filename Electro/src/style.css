@@ -255,6 +255,7 @@
 #featured .col-4 {
   border: 2px solid #fed700;
   border-radius: 25px;
+  height: auto;
 }
 
 #featured .col-4 img {
@@ -291,11 +292,17 @@
 
 #featured .col-4 .bottom-special h5 {
   color: #dc3545;
+  text-align: center;
 }
 
 #featured .col-4 .bottom-special h5 span {
   color: #848484;
   text-decoration: line-through;
+}
+
+#featured .col-4 .progress span {
+  width: 13%;
+  background-color: #fed700;
 }
 
 #featured .col-8 img {
@@ -461,5 +468,36 @@ nav .headerright .shop span {
   bottom: 0;
   right: 0;
   font-weight: 620;
+}
+
+.active-nav {
+  position: fixed !important;
+  left: 0;
+  right: 0;
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  z-index: 9999;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+    top: 50px;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+    top: 50px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

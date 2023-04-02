@@ -23,6 +23,14 @@ dropdown.addEventListener('mouseout', () => {
 
 
 
+const Navbar= document.querySelector("#navbar");
+window.addEventListener("scroll",()=>{
+  if(window.scrollY>300){
+    Navbar.classList.add("active-nav")
+  }
+})
+
+
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
