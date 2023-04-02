@@ -445,6 +445,10 @@ header .navright {
           align-items: center;
 }
 
+header .navright .register span {
+  color: black;
+}
+
 header .navright a {
   text-decoration: none;
   color: black;
@@ -453,10 +457,6 @@ header .navright a {
 
 nav {
   margin-top: 20px;
-}
-
-nav .register span {
-  color: black;
 }
 
 nav .headerleft a {

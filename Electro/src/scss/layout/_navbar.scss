@@ -25,7 +25,11 @@ header{
         justify-content: flex-end;
         align-items: center;
       
-    
+        .register{
+            span{
+                color: rgb(0, 0, 0);
+            }
+           }
         
         a{
             text-decoration: none;
@@ -39,11 +43,7 @@ header{
 nav{   
 
 
-   .register{
-    span{
-        color: black;
-    }
-   }
+ 
    margin-top: 20px;
 
    .headerleft{
