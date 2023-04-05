@@ -841,6 +841,108 @@ nav .headerright .shop span {
   padding: 20px;
 }
 
+#bestsellers .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+#bestsellers .grid-container div {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+#bestsellers .col-3 {
+  padding: 15px;
+}
+
+#bestsellers .col-3 img {
+  border-right: 1px solid #dddddd;
+  display: block;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#bestsellers .col-3 .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.212);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  color: #848484;
+}
+
+#bestsellers .col-3 .overlay svg {
+  color: #848484;
+}
+
+#bestsellers .col-3 .image2-1 {
+  position: relative;
+  width: 100%;
+}
+
+#bestsellers .col-3 .image2-1 a {
+  text-decoration: none;
+}
+
+#bestsellers .col-3 .image2-1 span {
+  color: #8fa7c1;
+  font-size: 0.9rem;
+}
+
+#bestsellers .col-3 .image2-1 p {
+  color: #0062bd;
+  font-weight: 650;
+}
+
+#bestsellers .col-3 .image2-1 :hover .overlay {
+  height: 100%;
+}
+
+#bestsellers .col-3 .image2-1 :hover .overlay .prices svg {
+  color: #fed700;
+}
+
+#bestsellers .col-3 .col-6 {
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  margin-top: 245px;
+}
+
+#bestsellers .col-3 .prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+#bestsellers .col-3 .prices h4 {
+  font-size: 1.2rem;
+  color: #dc3545;
+}
+
+#bestsellers .col-3 .prices h5 {
+  font-size: 1rem;
+}
+
+#bestsellers .col-3 .prices svg {
+  background-color: #e6e6e6;
+  color: white;
+  border-radius: 50%;
+}
+
 #details .swiper {
   margin-top: 20px;
   width: 100%;
@@ -1005,6 +1107,124 @@ nav .headerright .shop span {
   color: #292828;
 }
 
+#login {
+  margin-top: 30px;
+}
+
+#login hr {
+  width: 90%;
+}
+
+#login h2 {
+  font-weight: 420;
+}
+
+#login .col-6 h5 {
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#login .col-6 li {
+  list-style: none;
+  margin-left: -20px;
+}
+
+#login .col-6 li svg {
+  color: #5bb300;
+}
+
+#login .inputs span {
+  font-weight: 500;
+}
+
+#login .inputs input {
+  border: 1px solid  #333e485e;
+  border-radius: 30px;
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#login .row {
+  margin-top: 20px;
+}
+
+#login .row a {
+  text-decoration: none;
+  color: #353535;
+}
+
+#login .row .password a {
+  float: right;
+}
+
+#login .loginbtn {
+  margin-top: 20px;
+}
+
+#login .loginbtn button {
+  background-color: #fed700;
+  border: none;
+  padding: 10px;
+  width: 130px;
+  font-weight: 550;
+  border-radius: 25px;
+}
+
+#onsale {
+  margin-top: 100px;
+}
+
+#newsletter {
+  background-color: #fed700;
+  height: 70px;
+}
+
+#newsletter .col-3 {
+  margin-top: 18px;
+  float: left;
+}
+
+#newsletter .col-3 span {
+  font-size: 1.4rem;
+}
+
+#newsletter .col-4 {
+  margin-top: 20px;
+}
+
+#newsletter .col-5 {
+  margin-top: 15px;
+}
+
+#newsletter .coupon span {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+#newsletter .field {
+  float: right;
+}
+
+#newsletter .field input {
+  width: 400px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#newsletter .field button {
+  margin-left: -20px;
+  background-color: #333e48;
+  color: #ffff;
+  padding: 10px;
+  border-top-right-radius: 25px;
+  width: 100px;
+  border-bottom-right-radius: 25px;
+}
+
 .gohome {
   margin-top: 20px;
   margin-left: 50px;
@@ -1013,5 +1233,89 @@ nav .headerright .shop span {
 .gohome a {
   text-decoration: none;
   color: #292828;
+}
+
+#footer {
+  margin-top: 50px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #333e48;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer h2 {
+  font-size: 2.9rem;
+  font-weight: 790;
+}
+
+#footer span {
+  color: #fed700;
+  font-weight: 790;
+  font-size: 2.7rem;
+}
+
+#footer .contact2 {
+  margin-top: 20px;
+}
+
+#footer .contact2 svg {
+  color: #fed700;
+}
+
+#footer .contact2 span {
+  color: #a0a5a9;
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+#footer .contact2 p {
+  margin-left: 60px;
+  font-weight: 550;
+  font-size: 1.2rem;
+}
+
+#footer .contactinfo span {
+  color: #333e48;
+  font-size: 1rem;
+}
+
+#footer .icons2 {
+  margin-top: 20px;
+}
+
+#footer .col-2 {
+  margin-top: 20px;
+}
+
+#footer .col-2 p {
+  font-weight: 550;
+}
+
+#footer .col-2 li {
+  list-style: none;
+  margin-left: -30px;
+}
+
+#footer .payments {
+  margin-top: 50px;
+  background-color: #eaeaea;
+}
+
+#footer .payments .cards {
+  float: right;
+}
+
+#footer .payments .electro {
+  float: left;
+}
+
+#footer .payments .electro p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */

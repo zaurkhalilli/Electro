@@ -610,3 +610,96 @@
           }
     }
 }
+
+#bestsellers{
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+      
+      .grid-container div {
+        border: 1px solid black;
+        text-align: center;
+        font-size: 30px;
+      }
+
+      .col-3{
+        padding: 15px;
+        img{
+            border-right: 1px solid #dddddd;
+            display: block;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        .overlay{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.212) ;
+            overflow: hidden;
+            width: 100%;
+            height: 0;
+            transition: .3s ease-in-out;
+            svg{
+                
+                color: #848484;
+            }
+            color: #848484;
+        }
+        .image2-1{
+            position: relative;
+            width: 100%;
+            a{
+                text-decoration: none;
+            }
+            span{
+                color: #8fa7c1;
+                font-size: 0.9rem;
+            }
+            p{
+                color: #0062bd;
+                font-weight: 650;
+            }
+            
+        }
+        .image2-1 :hover .overlay {
+            height: 100%;
+            .prices{
+                svg{
+                    color: #fed700;
+                }
+            }
+          }
+
+          .col-6{
+            transition: .3s ease-in-out;
+            margin-top: 245px;
+            
+          }
+
+          .prices{
+            display: flex;
+            gap: 10px;
+            h4{
+                font-size: 1.2rem;
+                color: #dc3545;
+            }
+            h5{
+                font-size: 1rem;
+            }
+            svg{
+                background-color: #e6e6e6;
+                color: white;
+                border-radius: 50%;
+            }
+          }
+         
+ 
+    }
+
+}

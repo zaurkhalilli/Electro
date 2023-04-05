@@ -6,3 +6,115 @@
         color: rgb(41, 40, 40);
     }
 }
+
+#login{
+    margin-top: 30px;
+    hr{
+        width: 90%;
+    }
+    h2{
+        font-weight: 420;
+    }
+    .col-6{
+        h5{
+            font-weight: 400;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        li{
+            list-style: none;
+            margin-left: -20px;
+            svg{
+                color: #5bb300;
+            }
+        }
+    }
+    .inputs{
+        span{
+            font-weight: 500;
+        }
+        input{
+            border: 1px solid  #333e485e ;
+            border-radius: 30px;
+            width: 90%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    }
+   
+
+    .row{
+        margin-top: 20px;
+        a{
+            text-decoration: none;
+            color: rgb(53, 53, 53);
+        }
+        .password{
+            a{
+                float: right;
+            }
+        }
+       
+    }
+
+    .loginbtn{
+        margin-top: 20px;
+        button{
+            background-color: #fed700;
+            border: none;
+            padding: 10px;
+            width: 130px;
+            font-weight: 550;
+            border-radius: 25px;
+        }
+    }
+}
+
+#onsale{
+    margin-top: 100px;
+}
+
+
+
+#newsletter{
+    background-color: #fed700;
+    height: 70px;
+    .col-3{
+        margin-top: 18px;
+        float: left;
+        span{
+            font-size: 1.4rem;
+        }
+    }
+    .col-4{
+        margin-top: 20px;
+    }
+    .col-5{
+        margin-top: 15px;
+    }
+    .coupon{
+        span{
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+    }
+    .field{
+        float: right;
+        input{
+            width: 400px;
+            outline: none;
+            border: none;
+            border-radius: 25px;
+            padding: 10px;
+        }
+        button{
+            margin-left: -20px;
+            background-color: #333e48;
+            color: #ffff;
+            padding: 10px;
+            border-top-right-radius: 25px;
+            width: 100px;
+            border-bottom-right-radius: 25px;
+        }
+    }
+}
