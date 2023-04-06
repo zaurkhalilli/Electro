@@ -1176,6 +1176,42 @@ nav .headerright .shop span {
   margin-top: 100px;
 }
 
+#onsale .col-3 .row {
+  padding-top: 25px;
+}
+
+#onsale .col-3 .col-8 a {
+  text-decoration: none;
+  color: #0062cc;
+  font-weight: 500;
+}
+
+#onsale .col-3 .col-8 p {
+  color: #e17f63;
+  font-weight: 550;
+}
+
+#onsale .col-3 .col-8 p span {
+  color: #848484;
+  font-size: .7rem;
+  text-decoration: line-through;
+}
+
+#onsale .airpods img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+
+#companies img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
 #newsletter {
   background-color: #fed700;
   height: 70px;
@@ -1233,6 +1269,72 @@ nav .headerright .shop span {
 .gohome a {
   text-decoration: none;
   color: #292828;
+}
+
+#register {
+  margin-top: 30px;
+}
+
+#register hr {
+  width: 90%;
+}
+
+#register h2 {
+  font-weight: 420;
+}
+
+#register h5 {
+  margin-top: 20px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#register li {
+  list-style: none;
+  margin-left: -20px;
+}
+
+#register li svg {
+  color: #5bb300;
+}
+
+#register .inputs span {
+  font-weight: 500;
+}
+
+#register .inputs input {
+  border: 1px solid  #333e485e;
+  border-radius: 30px;
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#register .row {
+  margin-top: 20px;
+}
+
+#register .row a {
+  text-decoration: none;
+  color: #353535;
+}
+
+#register .row .password a {
+  float: right;
+}
+
+#register .loginbtn {
+  margin-top: 20px;
+}
+
+#register .loginbtn button {
+  background-color: #fed700;
+  border: none;
+  padding: 10px;
+  width: 130px;
+  font-weight: 550;
+  border-radius: 25px;
 }
 
 #footer {

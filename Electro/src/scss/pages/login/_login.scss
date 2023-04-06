@@ -72,8 +72,45 @@
 
 #onsale{
     margin-top: 100px;
+    .col-3{
+        .row{
+            padding-top: 25px;
+        }
+        .col-8{
+            a{
+                text-decoration: none;
+                color: #0062cc;
+                font-weight: 500;
+            }
+            p{
+                color: #e17f63;
+                font-weight: 550;
+                span{
+                    color: #848484;
+                    font-size: .7rem;
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+    .airpods{
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+    }
 }
 
+
+#companies{
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
 
 
 #newsletter{
