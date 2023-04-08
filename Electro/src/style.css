@@ -1087,6 +1087,15 @@ nav .headerright .shop span {
   margin-left: 50px;
 }
 
+#newarrivals h5 {
+  color: #dc3545;
+}
+
+#newarrivals h5 span {
+  color: #848484;
+  text-decoration: line-through;
+}
+
 #newarrivals hr {
   width: 90%;
   margin-left: 50px;
