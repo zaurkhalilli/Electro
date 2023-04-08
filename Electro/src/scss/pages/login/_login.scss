@@ -73,6 +73,10 @@
 #onsale{
     margin-top: 100px;
     .col-3{
+        h4{
+            color: #333e48;
+            text-decoration: none;
+        }
         .row{
             padding-top: 25px;
         }
@@ -93,13 +97,7 @@
             }
         }
     }
-    .airpods{
-        img{
-            width: 100%;
-            object-fit: cover;
-            height: 100%;
-        }
-    }
+
 }
 
 

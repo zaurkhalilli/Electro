@@ -654,7 +654,7 @@ nav .headerright .shop span {
 
 #best_deals .col-3 {
   width: 330px;
-  padding: 15px;
+  padding: 1px;
 }
 
 #best_deals .col-3 .col-6 {
@@ -765,12 +765,8 @@ nav .headerright .shop span {
      object-fit: cover;
 }
 
-#best_deals .col-6 body {
-  background: #000;
-  color: #000;
-}
-
 #best_deals .col-6 .swiper {
+  background-color: #fff;
   width: 100%;
   height: 300px;
   margin-left: auto;
@@ -780,46 +776,61 @@ nav .headerright .shop span {
 #best_deals .col-6 .swiper-slide {
   background-size: cover;
   background-position: center;
-  height: 200px;
 }
 
-#best_deals .col-6 .swiper-slide-active {
-  height: 500px;
-}
-
-#best_deals .col-6 .swiper-slide-active img {
-  margin-top: -150px;
-}
-
-#best_deals .col-6 .swiper-slide-visible {
-  height: 150px;
-  width: 150px;
-}
-
-#best_deals .col-6 .swiper-slide-visible img {
-  margin-top: 50px;
-  width: 100px;
-  height: 100px;
-}
-
-#best_deals .col-6 .mySwiperr {
-  height: 100%;
+#best_deals .col-6 .mySwiper2 {
+  height: 80%;
   width: 100%;
 }
 
-#best_deals .col-6 .swiper-wrapper img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+#best_deals .col-6 .mySwiper2 span {
+  color: #848484;
 }
 
-#best_deals .col-6 .mySwiperr {
-  height: 100%;
+#best_deals .col-6 .mySwiper2 p {
+  color: #0062bd;
+  font-weight: 650;
+}
+
+#best_deals .col-6 .mySwiper {
+  height: 20%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 10px 0;
+  padding: 30px 50px;
+}
+
+#best_deals .col-6 .swiperprice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#best_deals .col-6 .swiperprice h5 {
+  color: #dc3545;
+}
+
+#best_deals .col-6 .swiperprice h5 span {
+  color: #848484;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  font-weight: 440;
+}
+
+#best_deals .col-6 .swiperprice button {
+  background-color: #fed700;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  margin-top: -20px;
+  width: 160px;
+  font-weight: 650;
+}
+
+#best_deals .col-6 .mySwiper img {
+  border: 1px solid #848484;
 }
 
 #best_deals .col-6 .mySwiper .swiper-slide {
@@ -832,13 +843,16 @@ nav .headerright .shop span {
   opacity: 1;
 }
 
+#best_deals .col-6 .swiper-wrapper {
+  height: 88%;
+}
+
 #best_deals .col-6 .swiper-slide img {
   display: block;
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
   -o-object-fit: cover;
      object-fit: cover;
-  padding: 20px;
 }
 
 #bestsellers .grid-container {
@@ -941,6 +955,120 @@ nav .headerright .shop span {
   background-color: #e6e6e6;
   color: white;
   border-radius: 50%;
+}
+
+#tablet img {
+  margin-top: 30px;
+  display: block;
+  width: 95%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 40px;
+}
+
+#tablet .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.212);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#tablet .image4-1 {
+  position: relative;
+  width: 100%;
+}
+
+#tablet .image4-1 :hover .overlay {
+  height: 100%;
+}
+
+#newarrivals {
+  margin-top: 50px;
+}
+
+#newarrivals h4 {
+  margin-left: 50px;
+}
+
+#newarrivals hr {
+  width: 90%;
+  margin-left: 50px;
+}
+
+#newarrivals .image5 {
+  position: relative;
+  width: 100%;
+}
+
+#newarrivals .image5 a {
+  text-decoration: none;
+}
+
+#newarrivals .image5 span {
+  color: #8fa7c1;
+  font-size: 0.9rem;
+}
+
+#newarrivals .image5 p {
+  color: #0062bd;
+  font-weight: 650;
+}
+
+#newarrivals .image5 .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.212);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  color: #848484;
+}
+
+#newarrivals .image5 .overlay svg {
+  color: #848484;
+}
+
+#newarrivals .image5 :hover .overlay {
+  height: 100%;
+}
+
+#newarrivals .swiper {
+  width: 90%;
+  height: 90%;
+}
+
+#newarrivals .swiper-slide {
+  border-right: 1px solid #dddddd;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#newarrivals .swiper-slide img {
+  display: block;
+  width: 80%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #details .swiper {
@@ -1292,6 +1420,11 @@ nav .headerright .shop span {
   margin-top: 100px;
 }
 
+#onsale .col-3 h4 {
+  color: #333e48;
+  text-decoration: none;
+}
+
 #onsale .col-3 .row {
   padding-top: 25px;
 }
@@ -1311,13 +1444,6 @@ nav .headerright .shop span {
   color: #848484;
   font-size: .7rem;
   text-decoration: line-through;
-}
-
-#onsale .airpods img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100%;
 }
 
 #companies img {
