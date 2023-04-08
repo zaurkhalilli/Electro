@@ -11,9 +11,11 @@
             border: none;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
-            font-weight: 700;
+           
             text-align: left;
-            
+            span{
+                font-weight: 650;
+            }
         }
     }
     
@@ -65,13 +67,26 @@
     button{
         background: none;
         border: none;
+        font-weight: 640;
+        span{
+            background-color: #4cd964;
+            color: #fff;
+            font-size: .7rem;
+        }
     }
   }
   
   .dropdown-content {
+    background-color: #fff;
     display: none;
-    position: absolute;
+    position: relative;
     z-index: 1;
+
+
+    .col-3{
+        display: flex;
+
+    }
     a{
         display: block;
         text-decoration: none;
@@ -80,17 +95,79 @@
     }
   }
   
+  .home1 :hover .dropdown-content{
+    width: 400px;
+  }
   
   .dropdown-hover:hover .dropdown-content {
     display: block;
     z-index: 1;
-    
-  }
+    position: absolute;
+    hr{
+        border: 3px solid #feed00;
+    }
+    .home1{
+        width: 300px;
+       
+        a{
+            margin-left: 20px;
+            padding-bottom: 10px;
+            font-size: .9rem;
+        }
+    }
+    .catalog{
+        width: 950px;
+        margin-left: -100px;
+        background-color: #fff;
+        span{
+            font-weight: 650;
+        }
+        li{
+            padding-top: 10px;
+            list-style: none;
+        }
+    }
+    .gift{
+        width: 980px;
+        height: 250px;
+        margin-left: -200px;
+        background-color: #fff;
+        img{
+            margin-top: 20px;
+           width: 150px;
+           height: 150px;
+        }
+        p{
+            margin-top: 20px;
+            color: #dc3545;
+            font-weight: 550;
+            font-size: 1.4rem;
+            span{
+                color: #848484;
+                text-decoration: line-through;
+                font-size: .8rem;
+            }
+        }
+    }
+
+    .pagessale{
+        margin-left: -20px;
+        width: 250px;
+        background-color: #fff;
+        a{
+            margin-left: 20px;
+            padding-bottom: 10px;
+            font-size: .9rem;
+        }
+    }
+   
+}
   
 
   #swiper{
     .swiper {
         width: 100%;
+        z-index: -1;
         height: 100%;
       }
       .swiper-pagination-bullet{

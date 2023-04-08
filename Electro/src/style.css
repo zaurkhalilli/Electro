@@ -206,8 +206,11 @@ nav .headerright .shop span {
   border: none;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  font-weight: 700;
   text-align: left;
+}
+
+#header-bottom .dropdown button span {
+  font-weight: 650;
 }
 
 #header-bottom .dropdown-menu {
@@ -260,12 +263,26 @@ nav .headerright .shop span {
 .dropdown-hover button {
   background: none;
   border: none;
+  font-weight: 640;
+}
+
+.dropdown-hover button span {
+  background-color: #4cd964;
+  color: #fff;
+  font-size: .7rem;
 }
 
 .dropdown-content {
+  background-color: #fff;
   display: none;
-  position: absolute;
+  position: relative;
   z-index: 1;
+}
+
+.dropdown-content .col-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .dropdown-content a {
@@ -274,13 +291,86 @@ nav .headerright .shop span {
   color: black;
 }
 
+.home1 :hover .dropdown-content {
+  width: 400px;
+}
+
 .dropdown-hover:hover .dropdown-content {
   display: block;
   z-index: 1;
+  position: absolute;
+}
+
+.dropdown-hover:hover .dropdown-content hr {
+  border: 3px solid #feed00;
+}
+
+.dropdown-hover:hover .dropdown-content .home1 {
+  width: 300px;
+}
+
+.dropdown-hover:hover .dropdown-content .home1 a {
+  margin-left: 20px;
+  padding-bottom: 10px;
+  font-size: .9rem;
+}
+
+.dropdown-hover:hover .dropdown-content .catalog {
+  width: 950px;
+  margin-left: -100px;
+  background-color: #fff;
+}
+
+.dropdown-hover:hover .dropdown-content .catalog span {
+  font-weight: 650;
+}
+
+.dropdown-hover:hover .dropdown-content .catalog li {
+  padding-top: 10px;
+  list-style: none;
+}
+
+.dropdown-hover:hover .dropdown-content .gift {
+  width: 980px;
+  height: 250px;
+  margin-left: -200px;
+  background-color: #fff;
+}
+
+.dropdown-hover:hover .dropdown-content .gift img {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.dropdown-hover:hover .dropdown-content .gift p {
+  margin-top: 20px;
+  color: #dc3545;
+  font-weight: 550;
+  font-size: 1.4rem;
+}
+
+.dropdown-hover:hover .dropdown-content .gift p span {
+  color: #848484;
+  text-decoration: line-through;
+  font-size: .8rem;
+}
+
+.dropdown-hover:hover .dropdown-content .pagessale {
+  margin-left: -20px;
+  width: 250px;
+  background-color: #fff;
+}
+
+.dropdown-hover:hover .dropdown-content .pagessale a {
+  margin-left: 20px;
+  padding-bottom: 10px;
+  font-size: .9rem;
 }
 
 #swiper .swiper {
   width: 100%;
+  z-index: -1;
   height: 100%;
 }
 
@@ -1075,6 +1165,7 @@ nav .headerright .shop span {
   margin-top: 20px;
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 #details .swiper-slide {
