@@ -972,11 +972,6 @@ nav .headerright .shop span {
      object-fit: cover;
 }
 
-#details body {
-  background: #000;
-  color: #000;
-}
-
 #details .swiper {
   width: 100%;
   height: 300px;
@@ -1036,7 +1031,6 @@ nav .headerright .shop span {
 
 #details .col-4 {
   margin-top: 20px;
-  margin-left: 20px;
 }
 
 #details .col-4 .stars svg {
@@ -1092,9 +1086,131 @@ nav .headerright .shop span {
 }
 
 #details .col-4 .bluep span {
-  color: #1da1f3;
+  color: #000000;
   font-size: 1.1rem;
-  font-weight: 550;
+  font-weight: 450;
+}
+
+#details .col-3 {
+  height: 550px;
+  border: 1px solid #e3e3e3;
+  border-radius: 30px;
+}
+
+#details .col-3 button {
+  border-radius: 50%;
+}
+
+#details .col-3 .heading1 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#details .col-3 .heading1 h5 {
+  font-size: .9rem;
+  color: #a8a8a8;
+  text-decoration: line-through;
+}
+
+#details .col-3 .heading1 hr {
+  width: 85%;
+  margin-top: -10px;
+}
+
+#details .col-3 .heading1 p {
+  color: #a8a8a8;
+}
+
+#details .col-3 .heading1 p span {
+  color: #5bb300;
+  font-weight: 650;
+}
+
+#details .col-3 .heading2 {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+#details .col-3 .heading2 button {
+  background-color: transparent;
+  border: 1px solid #e3e3e3;
+}
+
+#details .col-3 .heading3 {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#details .col-3 .heading3 .colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#details .col-3 .heading3 .colors .black {
+  padding-left: 10px;
+}
+
+#details .col-3 .heading3 .colors .blue span {
+  color: blue;
+}
+
+#details .col-3 .heading3 .colors .red {
+  padding-left: 10px;
+}
+
+#details .col-3 .heading3 .colors .red span {
+  color: red;
+}
+
+#details .col-3 .heading3 .colors .yellow {
+  padding-left: 10px;
+}
+
+#details .col-3 .heading3 .colors .yellow span {
+  color: yellow;
+}
+
+#details .col-3 .heading3 .colors button {
+  padding: 5px;
+  padding-left: 25px;
+  border: none;
+}
+
+#details .col-3 .heading4 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#details .col-3 .heading4 input {
+  width: 140px;
+  border: 1px solid #e6e6e6;
+  border-radius: 15px;
+}
+
+#details .col-3 .heading4 button {
+  margin-top: 15px;
+  width: 90%;
+  border-radius: 30px;
+  padding: 15px;
+  background-color: #fed700;
+  color: #fff;
+  border: none;
+}
+
+#details .col-3 .heading4 .wishlist {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#details .col-3 .heading4 .wishlist span {
+  color: #acacac;
+}
+
+#details .col-3 .heading4 .wishlist .compare {
+  padding-left: 25px;
 }
 
 .gohome {

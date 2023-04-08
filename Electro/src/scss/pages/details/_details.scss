@@ -1,5 +1,5 @@
 #details{
-   
+    
     .swiper {
         margin-top: 20px;
         width: 100%;
@@ -22,10 +22,7 @@
         object-fit: cover;
       }
   
-      body {
-        background: #000;
-        color: #000;
-      }
+      
   
       .swiper {
         width: 100%;
@@ -81,7 +78,6 @@
 
      .col-4{
         margin-top: 20px;
-        margin-left: 20px;
         .stars{
             svg{
                 color: #fed700;
@@ -128,12 +124,108 @@
           }
     
           .bluep{
-           
             span{
-                color: #1da1f3;
+                color: #000000;
                 font-size: 1.1rem;
-                font-weight: 550;
+                font-weight: 450;
             }
           }
+     }
+     .col-3{
+      height: 550px;
+      border: 1px solid #e3e3e3;
+      border-radius: 30px;
+      button{
+        border-radius: 50%;
+      }
+      .heading1{
+        margin-top: 20px;
+        margin-left: 20px;
+        
+        h5{
+          font-size: .9rem;
+          color: #a8a8a8;
+          text-decoration: line-through;
+        }
+        hr{
+          width: 85%;
+          margin-top: -10px;
+        }
+        p{
+          color: #a8a8a8;
+          span{
+            color: #5bb300;
+            font-weight: 650;
+          }
+        }
+      }
+      .heading2{
+        margin-left: 20px;
+        margin-top: 15px;
+        button{
+          background-color: transparent;
+          border: 1px solid #e3e3e3;
+        }
+      }
+      .heading3{
+        margin-top: 10px;
+        margin-left: 20px;
+        .colors{
+          display: flex;
+          .black{
+            padding-left: 10px;
+          }
+          .blue{
+            span{
+              color: blue;
+            }
+          }
+          .red{
+            padding-left: 10px;
+            span{
+              color: red;
+            }
+          }
+          .yellow{
+            span{
+              color: yellow;
+            }
+            padding-left: 10px;
+          }
+          button{
+            padding: 5px;
+            padding-left: 25px;
+            border: none;
+          }
+        }
+      }
+      .heading4{
+        margin-top: 20px;
+        margin-left: 20px;
+        input{
+          width: 140px;
+          border: 1px solid #e6e6e6;
+          border-radius: 15px;
+        }
+        button{
+          margin-top: 15px;
+          width: 90%;
+          border-radius: 30px;
+          padding: 15px;
+          background-color: #fed700;
+          color: #fff;
+          border: none;
+        }
+        .wishlist{
+          margin-top: 20px;
+          display: flex;
+          span{
+            color: #acacac;
+          }
+          .compare{
+            padding-left: 25px;
+          }
+        }
+      }
      }
 }
